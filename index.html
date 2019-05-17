@@ -11,8 +11,9 @@
 <body>
 	 <nav class="navbar navbar-dark fixed-top flex-md-nowrap p-0 shadow">
 	 	<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IMPEKABLE</a>
-	  	<input id="inp1" class="form-control form-control-dark ml-0" type="text" placeholder="Search transactions,invoices or help" aria-label="Search">
-	  	<div class="ic1">
+	  	<input id="inp1" class="float-left form-control form-control-dark ml-0" type="text" placeholder="Search transactions,invoices or help" aria-label="Search">
+	  	<div class="clearfix"></div>
+	  	<div class="float-right ic1">
 	  		<img src="./impekable design/images/Path 107.png" alt="">
 	  		<img src="./impekable design/images/Path 107.png" alt="">
 	  		<img src="./impekable design/images/Path 107.png" alt="">
@@ -87,19 +88,22 @@
       			</div>
     		</nav>
 
-		    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+		    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pl-0 pr-0">
 		    	<div class="bg">
 			      	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-			        	<h1 class="h2">Overview</h1>
+			        	<h1 class="h2 pl-5">Overview</h1>
 			      	</div>
 			      	<div class="w-100 overview">
-			      		<div class="col-md-4 ml-0 bg-light tview">
-			      			<h5>Total views</h5>
-			      			<h3 class="pt-3">246K</h3>
-							<img id="percent" src="./images/images/icons/DownArrow.svg" alt=""><span class="color-danger">13.8%</span>
-							<img id="grafic" src="./images/images/Bar Chart-Blue.svg" alt="">
+			      		<div class="col-md-3 ml-5 tview">
+			      			<h6>Total views</h6>
+			      			<div class="clearfix"></div>
+			      			<h5 class="float-left">246K</br><img id="percent" src="./images/images/icons/DownArrow.svg" alt="">
+			      				<span class="text-danger">13.8%</span></h5>
+							<img id="grafic" src="./images/images/Bar Chart-Blue.svg" class="float-right charting pt-4" alt="">
 			      		</div>
+
 			      	</div>
+
 
       			<canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 

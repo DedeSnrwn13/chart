@@ -35,7 +35,23 @@ input#inp1 {
   overflow-x: hidden;
   overflow-y: auto; 
 }
-
+input#inp1 {
+  margin-left: -250px !important;
+  align-items: left !important;
+  float: left !important;
+}
+#ic1 {
+  float: left !important;
+  width: 100px !important;
+  height: 40px !important;
+  background: #000 !important;
+}
+#ic1 img {
+  display: inline;
+   width: 100px !important;
+  height: 40px !important;
+  background: #000 !important;
+}
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
     position: -webkit-sticky;
@@ -82,21 +98,34 @@ input#inp1 {
 }
 
 .bg {
-  background: whitesmoke;
+  background: #f0f0f7;
 }
 .tview {
   float: left;
+  background: #fff;
+}
+.tview h6 {
+  float: left;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
+.tview h5 {
+  float: left;
+  width: 50px;
+  margin-top: 20px;
+}
+.tview span {
+  font-size: 10px;
 }
 .tview img#percent{
-  width: 10px;
-  display: inline-block;
   float: left;
+  width: 10px;
+  margin-top: 10px;
 }
 .tview img#grafic{
   width: 120px;
-  display: inline-block;
-  float: right;
-  margin-bottom: 20px;
+  float: left;
 }
 
 /*
@@ -126,4 +155,7 @@ input#inp1 {
 .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.clearfix {
+  clear: both;
 }
