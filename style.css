@@ -36,21 +36,48 @@ input#inp1 {
   overflow-y: auto; 
 }
 input#inp1 {
-  margin-left: -250px !important;
+  margin-left: -120px !important;
   align-items: left !important;
   float: left !important;
 }
 #ic1 {
-  float: left !important;
-  width: 100px !important;
-  height: 40px !important;
-  background: #000 !important;
+  right: 0  !important;
+  float: right !important;
+  padding-left: 100px;
 }
 #ic1 img {
-  display: inline;
-   width: 100px !important;
   height: 40px !important;
-  background: #000 !important;
+  margin: 10px !important;
+}
+.user {
+  position: relative;
+  float: right;
+}
+.user ul {
+  display: flex;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+}
+.user ul li {
+  position: relative;
+  display: block;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+.user ul li a {
+  font-family: Roboto-Light;
+  display: inline-block;
+}
+.user ul li ul {
+  position: absolute;
+  display: block;
+  font-family: Roboto-Light;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
 }
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
