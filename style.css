@@ -3,15 +3,46 @@ body {
   margin: 0;
   padding: 0;
 }
-
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+}
+nav ul li {
+  list-style: none;
+  position: relative;
+  padding: 5px;
+  transition: 0.5s;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #4592a5;
+  font-family: Roboto-Light;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+}
 .feather {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
 }
+.search {
+  width: 300px;
+  position: absolute;
+  float: left;
+  margin-left: 300px !important;
+}
 input#inp1 {
   float: left;
-  width: 300px;
   text-align: left;
 }
 /*
@@ -35,18 +66,25 @@ input#inp1 {
   overflow-x: hidden;
   overflow-y: auto; 
 }
-input#inp1 {
-  margin-left: -120px !important;
+.search input#inp1 {
+  position: relative;
+  margin-left: 10px !important;
   align-items: left !important;
   float: left !important;
 }
-#ic1 {
-  right: 0  !important;
-  float: right !important;
-  padding-left: 100px;
+.search img {
+  position: absolute;
+  float: left;
+  margin-right: 200px;
+  margin-left: 0;
+  margin-top: 13px;
 }
-#ic1 img {
-  height: 40px !important;
+.ic1 {
+  position: absolute;
+  right: 120px !important;
+  float: right !important;
+}
+.ic1 img {
   margin: 10px !important;
 }
 .user {
@@ -151,6 +189,62 @@ input#inp1 {
   margin-top: 10px;
 }
 .tview img#grafic{
+  width: 120px;
+  float: left;
+}
+
+.tsold {
+  float: left;
+  background: #fff;
+}
+.tsold h6 {
+  float: left;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
+.tsold h5 {
+  float: left;
+  width: 50px;
+  margin-top: 20px;
+}
+.tsold span {
+  font-size: 10px;
+}
+.tsold img#percent2{
+  float: left;
+  width: 10px;
+  margin-top: 10px;
+}
+.tsold img#grafic2{
+  width: 120px;
+  float: left;
+}
+
+.tearn {
+  float: left;
+  background: #fff;
+}
+.tearn h6 {
+  float: left;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
+.tearn h5 {
+  float: left;
+  width: 50px;
+  margin-top: 20px;
+}
+.tearn span {
+  font-size: 10px;
+}
+.tearn img#percent3{
+  float: left;
+  width: 10px;
+  margin-top: 10px;
+}
+.tearn img#grafic3{
   width: 120px;
   float: left;
 }
