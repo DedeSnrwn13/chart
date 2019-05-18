@@ -2,7 +2,13 @@ body {
   font-size: .875rem;
   margin: 0;
   padding: 0;
+  font-family: 'SourceSansPro-Black';
 }
+@font-face{
+  font-family: SourceSansPro-Black;
+  src: url("./source-sans-pro/SourceSansPro-Black.otf");
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
@@ -39,7 +45,7 @@ nav ul li a {
   width: 300px;
   position: absolute;
   float: left;
-  margin-left: 300px !important;
+  margin-left: 100px !important;
 }
 input#inp1 {
   float: left;
@@ -67,8 +73,8 @@ input#inp1 {
   overflow-y: auto; 
 }
 .search input#inp1 {
-  position: relative;
-  margin-left: 10px !important;
+  position: absolute;
+  margin-left: 0!important;
   align-items: left !important;
   float: left !important;
 }
