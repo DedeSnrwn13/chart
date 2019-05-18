@@ -117,6 +117,9 @@ input#inp1 {
   visibility: hidden;
   background: #fff;
 }
+.nav-item span {
+  line-height: 10px;
+}
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
     position: -webkit-sticky;
