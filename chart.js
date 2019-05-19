@@ -8,13 +8,22 @@ var gradientungu = ctx.createLinearGradient(0,0,0,330);
 var myLineChart = new Chart(ctx, {
     type: 'line',
     data: {
-            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-            datasets: [{
-                label: 'Products sold',
-                data: [15,10, 15, 18, 15, 24],//ini datanya,
-                backgroundColor: ['gradientbiru','gradientungu'],//warna bg chart,
+            	labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+            	datasets: [{
+                label: 'Total Views',
+                data: [19, 10, 15, 18, 15, 24],//ini datanya,
+                backgroundColor: gradientbiru,//warna bg chart,
                 borderColor: "#a7a7ff", // warna garis,
                 borderWidth: 2 //ketebalan chartnya
+            }]
+            ,{
+            	labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+            	datasets: [{
+	                label: 'Product Sold',
+	                data: [15, 8, 17, 18, 15, 10],//ini datanya,
+	                backgroundColor:  gradientungu,//warna bg chart,
+	                borderColor: "#a7a7ff", // warna garis,
+	                borderWidth: 2 //ketebalan chartnya
             }]
 	}
 
