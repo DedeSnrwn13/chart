@@ -37,13 +37,13 @@ nav ul li a {
   line-height: 50px;
 }
 nav ul li a:hover {
-  color: #fff;
-  background: #2196f3;
+  color: #000;
   transform: 0.5s ease;
 }
 .user {
-  position: absolute;
-  float: left;
+  position: relative;
+  float: right;
+  margin-left: 920px;
 }
 .user ul li {
   position: relative;
@@ -71,6 +71,16 @@ nav ul li a:hover {
 .user ul li:hover ul {
   opacity: 1;
   visibility: visible;
+}
+
+.imgs {
+  float: right;
+  position: relative;
+}
+
+.imgs img{
+  float: right;
+  position: relative;
 }
 .feather {
   width: 16px;
@@ -106,6 +116,7 @@ input#inp1 {
   margin-left: 0;
   margin-top: 10px;
 }
+
 .user ul {
   display: flex;
   cursor: pointer;
@@ -113,15 +124,18 @@ input#inp1 {
   padding: 0;
   left: 0;
 }
+
 .user ul li {
   position: relative;
   display: block;
   transition: 0.5s;
   box-sizing: border-box;
 }
+
 .user ul li a {
   display: inline-block;
 }
+
 .user ul li ul {
   position: absolute;
   display: block;
@@ -238,14 +252,17 @@ section.normal {
   width: 50px;
   margin-top: 20px;
 }
+
 .tview span {
   font-size: 10px;
 }
+
 .tview img#percent{
   float: left;
   width: 10px;
   margin-top: 10px;
 }
+
 .tview img#grafic{
   width: 120px;
   float: left;
@@ -255,25 +272,30 @@ section.normal {
   float: left;
   background: #fff;
 }
+
 .tsold h6 {
   float: left;
   margin-top: 20px;
   font-size: 13px;
   color: #777;
 }
+
 .tsold h5 {
   float: left;
   width: 50px;
   margin-top: 20px;
 }
+
 .tsold span {
   font-size: 10px;
 }
+
 .tsold img#percent2{
   float: left;
   width: 10px;
   margin-top: 10px;
 }
+
 .tsold img#grafic2{
   width: 120px;
   float: left;
@@ -283,25 +305,30 @@ section.normal {
   float: left;
   background: #fff;
 }
+
 .tearn h6 {
   float: left;
   margin-top: 20px;
   font-size: 13px;
   color: #777;
 }
+
 .tearn h5 {
   float: left;
   width: 50px;
   margin-top: 20px;
 }
+
 .tearn span {
   font-size: 10px;
 }
+
 .tearn img#percent3{
   float: left;
   width: 10px;
   margin-top: 10px;
 }
+
 .tearn img#grafic3{
   width: 120px;
   float: left;
@@ -337,4 +364,7 @@ section.normal {
 }
 .clearfix {
   clear: both;
+}
+.teble {
+  margin-top: 50px;
 }
