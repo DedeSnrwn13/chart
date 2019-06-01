@@ -56,3 +56,19 @@ font-face{
 	border-right: none;
 	margin-top: -20px;
 }
+.pw h6 {
+	font-size: 15px;
+	color: #0005;
+	margin-bottom: 0;
+}
+.pw {
+	position: relative;
+	height: 30px;
+}
+.pw input {
+	width: 80%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: -20px;
+}
