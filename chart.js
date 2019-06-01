@@ -26,9 +26,11 @@ var myLineChart = new Chart(ctx, {
         }
         ],
 
+        
+
 	},
 	 options : {
-		   label:{
+		   legend:{
 		        position: 'bottom'
 		   }
 		}

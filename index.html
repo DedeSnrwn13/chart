@@ -5,21 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>chart</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
 <body>
 	 <nav class="navbar navbar-dark fixed-top flex-md-nowrap p-0 shadow">
 	 	<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IMPEKABLE</a>
 		<div class="search">
-			<img src="./impekable design/images/icon_search.png" alt="" class="float-left ml-0 pl-0">
+			<img src="./assets/impekable design/images/icon_search.png" alt="" class="float-left ml-0 pl-0">
 			<input id="inp1" class="float-left form-control form-control-dark ml-0" type="text" placeholder="Search transactions,invoices or help" aria-label="Search">
 		</div>
 	  	<div class="clearfix"></div>
 	  	<div class="float-right mr-5 ic1">
-	  		<img src="./impekable design/images/Path 107.png" alt="" class="ml-3">
-	  		<img src="./impekable design/images/Chat Icon.png" alt="" class="ml-3">
-	  		<img src="./impekable design/images/icon_notification.png" alt="" class="ml-3">
+	  		<img src="./assets/impekable design/images/Path 107.png" alt="" class="ml-3">
+	  		<img src="./assets/impekable design/images/Chat Icon.png" alt="" class="ml-3">
+	  		<img src="./assets/impekable design/images/icon_notification.png" alt="" class="ml-3">
 	  	</div>
 	  	<div class="user">
 	  		<ul>
@@ -31,18 +31,19 @@
 	  		</ul>
 	  	</div>
 	  	<div class="acc mr-5">
-	  		<img src="./images/images/Avatar.svg" alt="" class="float-right imgs">
+	  		
+	  		<img src="./assets/images/images/Avatar.svg" alt="" class="float-right imgs">
 	  	</div>
 	</nav>
 
 
 
-	<div class="container-fluid">
+	<div class="container">
   		<div class="row">
-    		<nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+    		<nav class="col-md-2 d-none d-md-block bg-dark sidebar pt-3">
       			<div class="sidebar-sticky">
         			<ul class="nav flex-column">
-          				<li class="nav-item pt-0">
+          				<li class="nav-item pt-4">
             				<a class="nav-link text-light" href="#">
               					<span data-feather="file"></span>
               					Home
@@ -105,7 +106,7 @@
       			</div>
     		</nav>
 
-		    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pl-0 pr-0">
+		    <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
 		    	<div class="bg">
 			      	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
 			        	<h1 class="h2 pl-5">Overview</h1>
@@ -115,23 +116,23 @@
 			      		<div class="col-md-3 ml-5 tview">
 			      			<h6>Total views</h6>
 			      			<div class="clearfix"></div>
-			      			<h5 class="float-left">246K</br><img id="percent" src="./images/images/icons/DownArrow.svg" alt="">
+			      			<h5 class="float-left">246K</br><img id="percent" src="./assets/images/images/icons/DownArrow.svg" alt="">
 			      				<span class="text-danger">13.8%</span></h5>
-							<img id="grafic" src="./images/images/Bar Chart-Blue.svg" class="float-right charting pt-4" alt="">
+							<img id="grafic" src="./assets/images/images/Bar Chart-Blue.svg" class="float-right charting pt-4" alt="">
 			      		</div>
 			      		<div class="col-md-3 ml-5 tsold">
 			      			<h6>Proudct Sold</h6>
 			      			<div class="clearfix"></div>
-			      			<h5 class="float-left">2453</br><img id="percent2" src="./images/images/icons/UpArrow.svg" alt="">
+			      			<h5 class="float-left">2453</br><img id="percent2" src="./assets/images/images/icons/UpArrow.svg" alt="">
 			      				<span class="text-success">13.8%</span></h5>
-							<img id="grafic2" src="./images/images/Bar Chart-Purple.svg" class="float-right charting pt-4" alt="">
+							<img id="grafic2" src="./assets/images/images/Bar Chart-Purple.svg" class="float-right charting pt-4" alt="">
 			      		</div>
 			      		<div class="col-md-3 ml-5 tearn">
 			      			<h6>Total Earning</h6>
 			      			<div class="clearfix"></div>
-			      			<h5 class="float-left">$39k</br><img id="percent3" src="./images/images/icons/DownArrow.svg" alt="">
+			      			<h5 class="float-left">$39k</br><img id="percent3" src="./assets/images/images/icons/DownArrow.svg" alt="">
 			      				<span class="text-danger">13.8%</span></h5>
-							<img id="grafic3" src="./images/images/Bar Chart-Green.svg" class="float-right charting pt-4" alt="">
+							<img id="grafic3" src="./assets/images/images/Bar Chart-Green.svg" class="float-right charting pt-4" alt="">
 			      		</div>
 						<div class="col-md-1 offside"></div>
 			      	</div>
@@ -278,5 +279,5 @@
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
-<script src="chart.js"></script>
+<script src="./assets/js/chart.js"></script>
 </html>
